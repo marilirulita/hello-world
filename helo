@@ -1,0 +1,40 @@
+[33mcommit 3d6e8e5700c708a799b8859e6acffdb8b8f40f79[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: mar y sol bautista <marilirulita@gmail.com>
+Date:   Tue Nov 17 14:33:30 2020 -0800
+
+    add readme file´
+
+[33mcommit 6c39e8bedf0ff5495ccfe8b746099ca7d651585e[m
+Author: Mar y Sol Bautista <marilirulita@gmail.com>
+Date:   Tue Nov 17 14:06:38 2020 -0800
+
+    add html and css main files
+
+[33mcommit de28dbe589628f7265edc0acd1224aed44c35360[m
+Merge: eb0ced1 0dc441e
+Author: marilirulita <50138343+marilirulita@users.noreply.github.com>
+Date:   Sat Aug 24 10:56:49 2019 -0700
+
+    Merge pull request #1 from marilirulita/readme-edits
+    
+    Readme edits
+
+[33mcommit 0dc441eccf997a525c8ab7f98c0dea2262bb4673[m
+Author: marilirulita <50138343+marilirulita@users.noreply.github.com>
+Date:   Sat Aug 24 10:20:47 2019 -0700
+
+    Update README.md
+
+[33mcommit c7cd7e410ace58afb930c804c47767c14bb514e0[m
+Author: marilirulita <50138343+marilirulita@users.noreply.github.com>
+Date:   Sat Aug 24 10:02:42 2019 -0700
+
+    Update README.md
+    
+    This is my first commit.
+
+[33mcommit eb0ced1227fec305fd9ef8b0b60065f0c789ada6[m
+Author: marilirulita <50138343+marilirulita@users.noreply.github.com>
+Date:   Fri Aug 23 18:24:02 2019 -0700
+
+    Initial commit
