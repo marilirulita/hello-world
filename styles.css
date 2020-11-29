@@ -97,9 +97,34 @@ nav ul li a {
 nav ul li a:hover {
   color: #E56038;
 }
-.slider-images {
-  background-color: beige;
-  padding: 50px;
+/* slider-image section */
+#slider_content1, #slider_content2, #slider_content3 {
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+  width: 350px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  display: none;
+  z-index: 11;
+}
+
+#slider_content1 {
+  display: block;
+}
+
+.container {
+  width: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slidesjs-container {
+  border: 1px solid gray;
+}
+/*
+.slides {
+
 }
 
 .spacer {
