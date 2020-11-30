@@ -97,6 +97,7 @@ nav ul li a {
 nav ul li a:hover {
   color: #E56038;
 }
+
 /* slider-image section */
 #slider_content1, #slider_content2, #slider_content3 {
   line-height: 25px;
@@ -114,6 +115,7 @@ nav ul li a:hover {
 }
 
 .container {
+  height: 400px;  /* Check this later  */
   width: auto;
   margin: 0 auto;
   position: relative;
@@ -122,15 +124,52 @@ nav ul li a:hover {
 .slidesjs-container {
   border: 1px solid gray;
 }
-/*
-.slides {
 
+#slider_content1 h3, #slider_content2 h3, #slider_content3 h3 {
+  padding: 10px 15px;
+  border-radius: 15px 0;
+  background-color: #333333;
+  color: #EBE8DE;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#slider_content1 p, #slider_content2 p, #slider_content3 p {
+  padding: 10px 15px;
+  background-color: #EBE8DE;
+  border-radius: 5px;
+  margin: 0 0 30px 0;
+  color: #4a463b;
 }
 
 .spacer {
-  background-color: brown;
+  background-color: #e56038;
+  width: auto;
+  height: 70px;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 18px;
 }
 
+.spacer p {
+  margin-top: 22px;
+  width: auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -450px;
+}
+
+.spacer form {
+  margin-top: 15px;
+  width: auto;
+  position: absolute;
+  right: 50%;
+  margin-right: -480px;
+}
+/*
 article {
   background-color: blueviolet;
   padding: 25px;
