@@ -205,6 +205,7 @@ nav ul li a:hover {
 }
 
 .four_columns, .text_column {
+  height: 200px; /* check this later */
   line-height: 25px;
   font-family: 'Open Sans', sans-serif;
   width: auto;
@@ -246,47 +247,96 @@ nav ul li a:hover {
 .thumb_screen:hover {
   opacity: 0.5;
 }
-/*
 
-
-.div3 {
-  display: flex;
-  justify-content: space-evenly;
-
-
+.text_column article, .text_column div {
+  margin: 70px 0;
+  float: left;
+  font-size: 14px;
+  width: 450px;
 }
 
-.div3 .big {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  margin: 10px;
+.text_column div {
+  margin: 120px 0;
 }
 
-.div3 div {
-  display: flex;
-  flex-direction: column;
-  background-color: aquamarine;
-  flex: 1;
-  margin: 10px;
+.text_column div article {
+  position: relative;
+  margin: 40px 0 0 50px;
+  float: right;
+  width: 350px;
 }
 
-.sma {
-  margin: 10px;
+.text_column div article img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.div4 {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: aquamarine;
+.text_column div article p {
+  margin-left: 100px;
 }
 
-.div4 article {
-  margin: 10px;
-  flex: 1;
+footer {
+  clear: both;
+  width: auto;
+  height: 350px;
+  position: relative;
+  background: #333333;
 }
 
-.copyright {
-  background-color: gainsboro;
+footer .wrapper {
+  line-height: 25px;
+  padding-top: 30px;
+  width: auto;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+footer .wrapper article {
+  font-family: 'Open Sans', sans-serif;
+  color: #ababab;
+  float: left;
+  width: 280px;
+  margin-right: 20px;
+}
+
+footer .wrapper .middle li {
+  width: auto;
+  padding: 0 0 10px 25px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #444444;
+  background: url(./img/arrow-right.png) left 6px no-repeat;
+}
+
+footer .wrapper .middle li:hover {
+  color: #fff;
+}
+
+footer .wrapper .right li {
+  width: auto;
+  margin-bottom: 15px;
+}
+
+footer .wrapper .right li span {
+  display: block;
+  margin-left: 95px;
+}
+
+footer .wrapper .right li img {
+  float: left;
+  transition: border .25s ease;
+  border: 2px solid #444444;
+}
+
+footer .wrapper .right li img:hover {
+  border-color: #5e5e5e;
+}
+
+footer .wrapper article h4 {
+  font-size: 16px;
+  color: #fff;
+  border-bottom: 1px solid #444;
+  padding: 0 0 10px 0;
+  margin-bottom: 10px;
 }
