@@ -104,7 +104,7 @@ nav ul li a:hover {
   font-family: 'Open Sans', sans-serif;
   width: 350px;
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 15%;
   display: none;
   z-index: 11;
@@ -115,7 +115,8 @@ nav ul li a:hover {
 }
 
 .container {
-  height: 400px;  /* Check this later  */
+  background: url(./img/slide1.jpg);
+  height: 350px;  /* Check this later  */
   width: auto;
   margin: 0 auto;
   position: relative;
@@ -175,7 +176,6 @@ nav ul li a:hover {
   max-width: 900px;
   margin: 0 auto;
   height: 200px; /* Check for this later  */
-  background-color: aquamarine;
   padding: 70px 0 45px 0;
 }
 
@@ -184,14 +184,13 @@ nav ul li a:hover {
   width: 250px;
   margin-right: 45px;
   font-size: 14px;
-  background-color: blueviolet;
 }
 
 .boxcontent article h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  margin-bottom: 10px;
-  margin-left: 75px;
+  margin: 0 0 10px 75px;
+  font-weight: 100;
 }
 
 .boxcontent article img {
@@ -211,7 +210,6 @@ nav ul li a:hover {
   width: auto;
   max-width: 900px;
   margin: 0 auto;
-  background-color: yellow;
 }
 
 .four_columns h2, .text_column h3 {
