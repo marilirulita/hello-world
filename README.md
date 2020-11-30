@@ -3,7 +3,7 @@
 
 > My first repository using Git Hub
 
-![screenshot](./img/img-page.png)
+![screenshot](./img/home-img.png)
 
 **Hi my name is Mar y Sol, I'm from Mexico and I'm starting to learn programing by my self using platforms like freeCodeCamp and programing courses in Coursera and other web pages.**
 
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
- [Live Demo Link](https://marilirulita.github.io/hello-world/)
+ [Live Demo Link](https://marilirulita.github.io/hello-world/.)
 
 ## Getting Started
 
