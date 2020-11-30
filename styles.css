@@ -169,18 +169,42 @@ nav ul li a:hover {
   right: 50%;
   margin-right: -480px;
 }
-/*
-article {
-  background-color: blueviolet;
-  padding: 25px;
+
+.boxcontent {
+  width: auto;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 200px; /* Check for this later  */
+  background-color: aquamarine;
+  padding: 70px 0 45px 0;
 }
 
-.div1 {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: aquamarine;
-  padding: 10px;
+.boxcontent article {
+  float: left;
+  width: 250px;
+  margin-right: 45px;
+  font-size: 14px;
+  background-color: blueviolet;
 }
+
+.boxcontent article h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 75px;
+}
+
+.boxcontent article img {
+  float: left;
+}
+
+.boxcontent article p {
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 75px;
+}
+
+/*
 
 .div2 {
   display: flex;
