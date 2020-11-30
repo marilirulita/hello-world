@@ -204,19 +204,28 @@ nav ul li a:hover {
   margin-left: 75px;
 }
 
+.four_columns, .text_column {
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+  width: auto;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+.four_columns h2, .text_column h3 {
+  font-size: 20px;
+  border-bottom: 1px solid #D6D0C1;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
 /*
 
-.div2 {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: coral;
-  padding: 20px;
-}
 
 .div3 {
   display: flex;
   justify-content: space-evenly;
-  background-color: firebrick;
+
 
 }
 
