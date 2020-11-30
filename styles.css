@@ -340,3 +340,50 @@ footer .wrapper article h4 {
   padding: 0 0 10px 0;
   margin-bottom: 10px;
 }
+
+footer .copyright {
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #1D1D1D;
+  width: 100%;
+}
+
+footer .copyright .wrapper {
+  font-family: 'Open Sans', sans-serif;
+  color: #5e5e5e;
+  padding-top: 25px;
+  font-size: 14px;
+  position: relative;
+}
+
+footer .copyright .wrapper ul {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+footer .copyright .wrapper ul li {
+  display: block;
+  float: left;
+  margin-left: 12px;
+  opacity: 0.5;
+  transition: opacity .25s ease;
+  background: black;
+  padding: 3px 7px;
+  border-radius: 15px;
+}
+
+footer .copyright .wrapper ul li:hover {
+  opacity: 0.8;
+  color: black;
+}
+
+footer .copyright .wrapper a {
+  color: #ABABAB;
+}
+
+footer .copyright .wrapper a:hover {
+  color: #fff;
+}
