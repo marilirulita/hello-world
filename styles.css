@@ -104,10 +104,14 @@ nav ul li a:hover {
   font-family: 'Open Sans', sans-serif;
   width: 350px;
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 15%;
   display: none;
   z-index: 11;
+}
+
+#slider_content1 p .responsive_button, #slider_content2 p .responsive_button, #slider_content3 p .responsive_button {
+  display: none;
 }
 
 #slider_content1 {
@@ -115,11 +119,13 @@ nav ul li a:hover {
 }
 
 .container {
-  background: url(./img/slide1.jpg);
-  height: 350px;  /* Check this later  */
   width: auto;
   margin: 0 auto;
   position: relative;
+}
+
+.container img {
+  width: 100%;
 }
 
 .slidesjs-container {
@@ -384,4 +390,86 @@ footer .copyright .wrapper a {
 
 footer .copyright .wrapper a:hover {
   color: #fff;
+}
+
+.clear {
+  clear: both;
+}
+.hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Media queries */
+
+@media (max-width: 1215px) {
+  #slider_content1, #slider_content2, #slider_content {
+    width: auto;
+    margin-right: 50px;
+  }
+  #slider_content1 h3, #slider_content2 h3, #slider_content h3 {
+    font-size: 18px;
+  }
+  #slider_content1 p, #slider_content2 p, #slider_content p {
+    font-size: 14px;
+  }
+  #slider_content1 p .responsive_button, #slider_content2 p .responsive_button, #slider_content3 p .responsive_button {
+    display: inline;
+    color: #000;
+  }
+  .container input {
+    display: none;
+  }
+}
+
+@media (max-width: 915px) {
+  .boxcontent {
+    height: 350px;
+  }
+  .boxcontent article {
+    float: none;
+    margin: 30px auto 0 auto;
+    width: 60%;
+  }
+  .spacer {
+    font-size: 15px;
+  }
+  .spacer form {
+    margin-top: 19px;
+    margin-right: -385px;
+  }
+  .spacer p {
+    margin-left: -370px
+  }
+  input {
+    padding: 4px;
+    font-size: 14px;
+  }
+  input[type="submit"] {
+    padding: 1px 14px;
+  }
+  .four_columns {
+    width: 500px;
+    height: 600px;
+  }
+  .four_columns figure:nth-of-type(3), .four_columns figure:nth-of-type(4) {
+    margin-top: 25px;
+  }
+  .text_column {
+    height: 600px;
+  }
+  .text_column article, .text_column div {
+    float: none;
+    max-width: 500px;
+    margin: 50px auto 0 auto;
+  }
+  .text_column div article {
+    float: none;
+    margin: 0 0 40px 50px;
+  }
+  footer .wrapper article {
+    font-size: 12px;
+    width: 230px;
+  }
 }
