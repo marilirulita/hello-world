@@ -473,3 +473,93 @@ footer .copyright .wrapper a:hover {
     width: 230px;
   }
 }
+
+/* animations */
+
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.my-h1:hover {
+  display: inline-block;
+  animation: flip; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.my-li:hover {
+  display: inline-block;
+  animation: hinge; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.my-img {
+  display: inline-block;
+  animation: zoomIn;
+  animation-duration: 2s; 
+}
+
+.my-header:hover {
+  display: inline-block;
+  animation: pulse;
+  animation-duration: 2s; 
+}
+
+.my-spacer {
+  display: inline-block;
+  animation: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; 
+}
+.my-spacer:hover {
+  display: inline-block;
+  animation: none;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; 
+}
+
+
+.my-spacer-p:hover {
+  display: inline-block;
+  animation: shakeX;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; 
+}
+
+.my-article:hover {
+  display: inline-block;
+  animation: swing;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; 
+}
+
+.my-columns:hover {
+  display: inline-block;
+  animation: wobble;
+  animation-duration: 2s;
+}
+
+.my-roquet:hover {
+  display: inline-block;
+  animation: bounceOutUp ;
+  animation-duration: 2s;
+}
+
+.my-clock:hover {
+  display: inline-block;
+  animation: rotateOut ;
+  animation-duration: 2s;
+}
+
+.my-footer-mid:hover {
+
+  animation: slideOutLeft;
+  animation-duration: 2s;
+}
+
+.my-footer-right:hover {
+  animation: slideOutRight;
+  animation-duration: 2s;
+}
